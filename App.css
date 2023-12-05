@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #007BFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003d80;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+input[type="email"], input[type="password"] {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
